@@ -1,0 +1,29 @@
+
+
+main h2 {
+  color:#228B22;
+}
+
+head,body {
+  background-color: #9fe2bf;
+  font-size: 150%;
+  
+}
+
+div p{
+  font-style: oblique;
+}
+
+h1{
+  color:#008080;
+}
+
+
+
+div h3 {
+  color: #0047ab;
+}
+
+a:hover{
+  font-style: italic;
+}
