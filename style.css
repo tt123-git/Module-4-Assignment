@@ -2,26 +2,74 @@
 
 main h2 {
   color:#228B22;
+  margin-bottom: 50px;
+  border: 3px double black;
+  width: 45%;
+  border-radius: 10px 10px;
+  box-shadow: 4px 4px #228B22;
+  text-align: center;
 }
 
+#mononoke h2 {
+  width: 55%;
+  margin-left: 200px;
+}
+
+#wind h2 {
+  position: relative;
+  top:20px;
+  margin-left: 260px ;
+}
 head,body {
   background-color: #9fe2bf;
   font-size: 150%;
   
 }
 
+head,body h2 {
+  margin-left: 15px;
+}
+
+
+body {
+   margin-right: auto;
+   margin-left: auto;
+   width: 600px;
+   border: 3px solid black;
+   background-image: url(./image/kaguya1.jpg) ;
+   
+   
+   
+}
+
+
+
+
+
+main img{
+  float: left;
+	display: block;
+  margin-bottom: 30px;
+}
+
 div p{
   font-style: oblique;
+  text-align: center;
 }
 
 h1{
   color:#008080;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: black;
 }
 
 
 
 div h3 {
   color: #0047ab;
+  margin-bottom: 0px;
+  margin-left: 15px;
 }
 
 a:hover{
