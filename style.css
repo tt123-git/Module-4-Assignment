@@ -42,6 +42,45 @@ body {
    
    
 }
+#nav_menu ul { /*Those nav css are decorate navigation menue*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul li a {
+    display: block;
+    width: 150px;
+    height: 5px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#nav_menu a.current {
+	color: #E59500;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
 
 
 
@@ -60,9 +99,10 @@ div p{
 
 h1{
   color:#008080;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   text-align: center;
   background-color: black;
+  border-bottom: 2px solid white;
 }
 
 
