@@ -37,7 +37,7 @@ head,body h2 {
 body {
    margin-right: auto;
    margin-left: auto;
-   width: 600px;
+   width: 1200px;
    border: 3px solid black;
    
    
@@ -53,7 +53,7 @@ body {
 }
 #nav_menu ul li a {
     display: block;
-    width: 150px;
+    width: 300px;
     height: 5px;
     text-align: center;
     padding: 1em 0;
