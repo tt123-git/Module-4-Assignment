@@ -11,14 +11,17 @@ main h2 {
 }
 
 #mononoke h2 {
-  width: 55%;
-  margin-left: 200px;
+  width: 35%;
+}
+
+#porco h2 {
+  width:20%;
 }
 
 #wind h2 {
   position: relative;
   top:20px;
-  margin-left: 260px ;
+  width: 25%;
 }
 head,body {
   background-color: #9fe2bf;
@@ -37,7 +40,8 @@ head,body h2 {
 body {
    margin-right: auto;
    margin-left: auto;
-   width: 1200px;
+   width: 90%;
+   max-width: 1200px;
    border: 3px solid black;
    
    
@@ -52,8 +56,9 @@ body {
 	float: left;
 }
 #nav_menu ul li a {
-    display: block;
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 273px;
     height: 5px;
     text-align: center;
     padding: 1em 0;
@@ -86,15 +91,17 @@ body {
 
 
 
-main img{
+main img{ /*This is scalable images*/
   float: left;
 	display: block;
   margin-bottom: 30px;
+  width: 50%;
 }
 
 div p{
   font-style: oblique;
   text-align: center;
+  width: 55%;
 }
 
 h1{
@@ -111,8 +118,13 @@ div h3 {
   color: #0047ab;
   margin-bottom: 0px;
   margin-left: 15px;
+  width: 55%;
 }
 
 a:hover{
   font-style: italic;
+}
+
+@media only screen and (max-width: 599px) {
+  body p {font-size: 50%;}
 }
