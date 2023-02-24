@@ -51,19 +51,20 @@ body {
 	margin: 0;
 	padding: 0;
 	position: relative;
+  display: flex;
+  
 }
 #nav_menu ul li {
 	float: left;
+  width: 25%;
+  background-color: black;
 }
 #nav_menu ul li a {
-    display: flex;
     flex-direction: column;
-    width: 273px;
     height: 5px;
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
-    background-color: black;
     color: white;
     font-weight: bold;
 }
